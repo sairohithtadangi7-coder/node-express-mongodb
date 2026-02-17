@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "rohith13s/node-mongo-app"
-        DOCKERHUB_CREDENTIALS = "dockerhub-creds"
+        DOCKERHUB_CREDENTIALS = "docker-hub-creds"
     }
 
     stages {
